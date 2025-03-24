@@ -1,0 +1,3 @@
+This code develops trading signals for an ETF based on both its correlation with its underlying assets and its relative strength index. The first portion of the code assesses the correlation between the ETF and its assets, 
+effectively filtering out assets with low correlation as they are less indicative of the price movements of the ETF. Next, the four assets are evaluated based on their relative strength index, which can indicate overbought
+or oversold conditions. Implementing these two conditions causes signals to only be enacted at extreme correlation and rsi values, ensuring that the ETF will only be bought and sold in stable conditions. 
